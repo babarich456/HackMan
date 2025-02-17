@@ -6,7 +6,7 @@ figlet "HackMan"
 echo "HackMan Tool"
 echo "Tool Created by babarich456"
 
-read -p "Enter your choice : " choice
+read -p "Are you need? (y/n) " choice
 clear
 echo -e "$yellow" Kali Linux is being run from Termux:
 echo "If there is no "nh", please type "nethunter"."
