@@ -8,7 +8,7 @@ echo "Tool Created by babarich456"
 
 read -p "Are you need? (y/n) " choice
 clear
-echo -e "$yellow" Slackware is being run from Termux:
+echo -e "$green" Slackware is being run from Termux:
 pkg update && pkg upgrade
 pkg install proot wget
 wget https://github.com/gwenhael-le-moine/TermuxSlack/raw/master/setupTermuxSlack.sh
