@@ -1,6 +1,6 @@
 green='\033[92m'
 
-echo -e "$yellow" Logged into the system
+echo -e "$green" Logged into the system
 clear
 figlet "Lernux"
 echo "Lernux Tool"
