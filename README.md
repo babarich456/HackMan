@@ -1,6 +1,6 @@
 # Lernux
 
-HackMan Tool
+Lernux Tool
 
 İnstalling:
 
