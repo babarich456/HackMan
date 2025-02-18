@@ -2,8 +2,8 @@ green='\033[92m'
 
 echo -e "$green" Logged into the system
 clear
-figlet "HackMan"
-echo "HackMan Tool"
+figlet "Lernux"
+echo "Lernux Tool"
 echo "Tool Created by babarich456"
 
 read -p "Are you need? (y/n) " choice
