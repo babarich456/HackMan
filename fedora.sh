@@ -1,6 +1,6 @@
-yellow='\e[0;33m'
+green='\033[92m'
 
-echo -e "$yellow" Entered By System
+echo -e "$green" Logged into the system
 clear
 figlet "HackMan"
 echo "HackMan Tool"
@@ -8,7 +8,7 @@ echo "Tool Created by babarich456"
 
 read -p "Are you need? (y/n) " choice
 clear
-echo -e "$yellow" Fedora is being run from Termux:
+echo -e "$green" Fedora is being run from Termux:
 pkg update && pkg upgrade
 pkg install proot-distro
 proot-distro install fedora
