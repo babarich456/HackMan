@@ -1,6 +1,6 @@
-yellow='\e[0;33m'
+green='\033[92m'
 
-echo -e "$yellow" Entered By System
+echo -e "$yellow" Logged into the system
 clear
 figlet "HackMan"
 echo "HackMan Tool"
