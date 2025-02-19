@@ -14,12 +14,12 @@ while true; do
         [Yy]* )
             echo "You entered the tool.";
             # The codes to enter the tool will be located here
-            break
+            bash main.sh
             ;;
         [Nn]* )
             echo "You are out of the tool.";
             # The codes will be found here, as it exits the vehicle
-            break
+            python exit.py
             ;;
         * ) echo "Please just press the y or n keys.";;
     esac
