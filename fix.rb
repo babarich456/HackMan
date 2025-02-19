@@ -1,5 +1,0 @@
-system("pkg update && pkg upgrade -y")
-system("pkg install git")
-system("cd")
-system("cd Lernux")
-system("bash main.sh")
