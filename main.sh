@@ -6,7 +6,24 @@ figlet "Lernux"
 echo "Lernux Tool"
 echo "Tool Created by babarich456"
 
-read -p "Do you want to enter the tool? (y/n) " choice
+#!/bin/bash
+
+while true; do
+    read -p "Press 'y' to enter the tool, press 'n' to exit: " yn
+    case $yn in
+        [Yy]* )
+            echo "You entered the tool.";
+            # The codes to enter the tool will be located here
+            break
+            ;;
+        [Nn]* )
+            echo "You are out of the tool.";
+            # The codes will be found here, as it exits the vehicle
+            break
+            ;;
+        * ) echo "Please just press the y or n keys.";;
+    esac
+done
 echo
 clear
 echo -e "$green" Logged into the system.
