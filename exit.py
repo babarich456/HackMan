@@ -1,8 +1,12 @@
 import pyfiglet
+from termcolor import colored
 
-# PyFiglet kullanarak ASCII sanatı oluşturma
+# Create ASCII art using PyFiglet
 ascii_art = pyfiglet.figlet_format("Lernux")
 
-print(ascii_art)
+# Make ASCII art in green
+colored_ascii_art = colored(ascii_art, 'green')
+
+print(colored_ascii_art)
 
 print ("You have exited the tool...")
