@@ -14,7 +14,7 @@ while true; do
         [Yy]* )
             echo "You entered the tool.";
             # The codes to enter the tool will be located here
-            bash main.sh
+            break
             ;;
         [Nn]* )
             echo "You are out of the tool.";
